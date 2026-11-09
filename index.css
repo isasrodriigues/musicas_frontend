@@ -1,0 +1,107 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fdf0f5; /* Rosa bem claro da última linha da paleta */
+    color: #4a0b27;
+}
+
+header {
+    background-color: #eb108a; /* Rosa forte da primeira linha da paleta */
+    color: white;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(235, 16, 138, 0.2);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+header a {
+    background-color: white;
+    color: #eb108a;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 50px; /* Botão redondo */
+    transition: 0.3s;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+header a:hover {
+    background-color: #fce4ef;
+    transform: scale(1.05);
+}
+
+main {
+    padding: 40px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#listaMusicas {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.musica {
+    background: white;
+    border: 2px solid #f68ebb; /* Rosa médio da paleta */
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(246, 142, 187, 0.15);
+}
+
+.musica h2 {
+    margin: 0 0 10px 0;
+    color: #d1137c;
+}
+
+.artista {
+    margin: 0;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #eb108a;
+}
+
+.detalhes {
+    margin: 8px 0 20px 0;
+    color: #8c3b65;
+    font-size: 0.95rem;
+}
+
+.acoes {
+    display: flex;
+    gap: 15px;
+}
+
+.acoes .editar, 
+.acoes .apagar {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px; /* Botões redondos */
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.acoes .editar {
+    background-color: #f9b5d1;
+    color: #4a0b27;
+}
+
+.acoes .apagar {
+    background-color: #f45b9f;
+    color: white;
+}
+
+.acoes .editar:hover { background-color: #f68ebb; }
+.acoes .apagar:hover { background-color: #d1137c; }

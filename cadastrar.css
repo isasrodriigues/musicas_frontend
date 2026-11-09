@@ -1,0 +1,91 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 40px 20px;
+    background-color: #fdf0f5; /* Rosa bem claro */
+    color: #4a0b27;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background: white;
+    padding: 40px;
+    border-radius: 30px; /* Container mais arredondado */
+    box-shadow: 0 8px 20px rgba(235, 16, 138, 0.15);
+    width: 100%;
+    max-width: 450px;
+    border: 2px solid #fce4ef;
+}
+
+.link-voltar {
+    color: #eb108a;
+    text-decoration: none;
+    font-size: 0.95rem;
+    display: inline-block;
+    margin-bottom: 25px;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.link-voltar:hover {
+    color: #d1137c;
+    transform: translateX(-5px);
+}
+
+h1 {
+    margin-top: 0;
+    color: #eb108a;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 18px;
+}
+
+label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-size: 0.95rem;
+    color: #8c3b65;
+}
+
+input {
+    padding: 12px 15px;
+    border: 2px solid #f9b5d1;
+    border-radius: 25px; /* Inputs redondos */
+    font-size: 1rem;
+    color: #4a0b27;
+    background-color: #fff9fb;
+    transition: 0.3s;
+}
+
+input:focus {
+    border-color: #eb108a;
+    outline: none;
+    background-color: white;
+    box-shadow: 0 0 8px rgba(235, 16, 138, 0.3);
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    background-color: #eb108a;
+    color: white;
+    border: none;
+    border-radius: 50px; /* Botão principal redondo */
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: 0.3s;
+    box-shadow: 0 4px 10px rgba(235, 16, 138, 0.3);
+}
+
+button:hover {
+    background-color: #d1137c;
+    transform: translateY(-2px);
+}
